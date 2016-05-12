@@ -3,7 +3,7 @@
 
 脉脉的效果：
 
-![](https://github.com/xh2009cn/KeyboardPanelSwitcher/tree/master/screenshots/maimai.gif)
+![](https://raw.githubusercontent.com/hhktony/dotvim/master/screenshots/vim-screenshot.jpg)
 
 Demo的效果：
 
