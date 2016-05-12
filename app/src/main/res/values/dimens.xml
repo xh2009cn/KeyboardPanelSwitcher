@@ -1,0 +1,5 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="default_action_bar_height">56dp</dimen>
+    <dimen name="default_keyboard_height">267dp</dimen>
+</resources>

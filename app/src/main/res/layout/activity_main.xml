@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="@dimen/default_action_bar_height"
+              android:background="#333"
+              android:gravity="center"
+              android:text="标题"
+              android:textColor="@android:color/white"/>
+
+        <requestFocus/>
+
+        <ScrollView
+            android:id="@+id/sv_content"
+            android:background="#fcfcfc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <!--android:scrollbars="none" 不要加这句，否则会把标题栏也往上推-->
+
+        </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#eee"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_switcher"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_panel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_keyboard_height"
+        android:background="#0ff"
+        android:visibility="gone"/>
+
+</LinearLayout>
